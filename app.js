@@ -53,4 +53,6 @@ app.use(function(err, req, res, next) {
   res.render('error');
 });
 
+console.log("change update test");
+
 module.exports = app;
